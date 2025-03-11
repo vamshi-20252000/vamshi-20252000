@@ -1,9 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;600&display=swap');
 
 
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     background: linear-gradient(to right, #0d0d0d, #1a1a1a);
     color: #d4af37;
     margin: 0;
@@ -17,25 +17,34 @@ body {
 
 .container {
     width: 80%;
-    max-width: 900px;
+    max-width: 1000px;
     background: rgba(17, 17, 17, 0.9);
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 15px 25px rgba(212, 175, 55, 0.3);
-    text-align: center;
     transition: transform 0.3s ease-in-out;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 .container:hover {
     transform: scale(1.02);
 }
 
+/* Profile Section */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .profile-img {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    border: 4px solid #d4af37;
-    margin-top: 10px;
+    border: 5px solid #d4af37;
     transition: transform 0.3s;
 }
 
@@ -44,7 +53,7 @@ body {
 }
 
 h1 {
-    font-size: 2.8em;
+    font-size: 3em;
     margin: 10px 0;
     color: #d4af37;
     text-transform: uppercase;
@@ -52,33 +61,48 @@ h1 {
 }
 
 .tagline {
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #f0e68c;
     margin-bottom: 20px;
     font-style: italic;
+    text-align: center;
+}
+
+/* Sections Styling */
+.section {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(212, 175, 55, 0.2);
+    transition: transform 0.3s;
+}
+
+.section:hover {
+    transform: scale(1.03);
 }
 
 h2 {
     border-bottom: 3px solid #d4af37;
     padding-bottom: 8px;
     color: #d4af37;
-    margin-top: 25px;
+    margin-top: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
+/* List Styling */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
 ul li {
-    background: #222;
+    background: #333;
     margin: 6px 0;
     padding: 14px;
     border-radius: 8px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.1em;
     transition: background 0.3s;
 }
 
@@ -88,6 +112,7 @@ ul li:hover {
     font-weight: bold;
 }
 
+/* Work Experience */
 .job {
     text-align: left;
     background: rgba(26, 26, 26, 0.9);
@@ -102,8 +127,10 @@ ul li:hover {
     transform: scale(1.03);
 }
 
+/* Footer */
 footer {
     margin-top: 20px;
     font-size: 1em;
     color: #aaa;
+    text-align: center;
 }
