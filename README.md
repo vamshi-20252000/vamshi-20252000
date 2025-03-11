@@ -3,11 +3,17 @@
 - 📫 How to reach me ...vamshigoud7032@gmail.com
                  
 HNO-9-45/5, SV NAGAR .
-Nagaram.      
+<BR />
+Nagaram.
+<BR />
 Medchal-Malkajgiri.
+<BR />
 Telangana - 500083
+<BR />
 EMAIL:vamshigoud7032@gmail.com
+<BR />
 Mobile No: 7032653963
+<BR />
 			                                                                  
 CAREER OBJECTIVE
   
@@ -45,20 +51,21 @@ BASIC KNOWLEDGE OF TALLY
 PERSONAL PROFILE
   
 
-Name                    : GANNEGONI VAMSHINATH GOUD
+Name                    : GANNEGONI VAMSHINATH GOUD 
+<BR />
 
 Fathers   Name          : GANNEGONI KONDAL GOUD
-                               
+<BR />                               
 Date of Birth           : 17-02-1999
-  
+  <BR />
 Marital status          : Unmarried 
-  
+  <BR />
 Nationality             : Indian. 
-
+<BR />
 Religion                : Hindu
-  
+  <BR />
 Languages known         : Telugu, English & Hindi
-
+<BR />
 
 Declaration:
 
