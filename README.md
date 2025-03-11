@@ -1,75 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Profile - G Vamshi</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <img src="./IMAGE.PNG.jpg" alt="G Vamshi" class="profile-img">
-            <h1>G VAMSHI</h1>
-            <p class="tagline">Full Stack Developer | Web Enthusiast</p>
-        </header>
-        
-        <section class="summary">
-            <h2>About Me</h2>
-            <p>I am committed to accepting challenges professionally, working hard to achieve organizational goals, and enhancing my skills.</p>
-        </section>
+# Professional Profile Page
 
-        <section class="education">
-            <h2>Education</h2>
-            <ul>
-                <li>SSC - <b>Z P H S Nagaram</b> (2015) - 73%</li>
-                <li>Intermediate - <b>Kakatiya Junior College</b> (2017) - 55%</li>
-                <li>Bachelor's Degree - <b>Geethanjali Degree College</b> (2022) - 75%</li>
-            </ul>
-        </section>
+This project is a **light-themed professional profile page** built using **HTML and CSS**. It presents an elegant and structured resume layout, displaying essential information such as education, work experience, skills, and certifications.
 
-        <section class="experience">
-            <h2>Work Experience</h2>
-            <div class="job">
-                <h3>Full Stack Developer - UNVRITZ INC.</h3>
-                <p>Oct 2023 - Jan 2025</p>
-                <ul>
-                    <li>Developed dynamic web applications using modern technologies.</li>
-                    <li>Provided high-quality UI/UX designs.</li>
-                    <li>Optimized applications for maximum speed.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Full Stack Developer - KEETECHLABS PVT.LTD.</h3>
-                <p>Jan 2025 - Present</p>
-                <ul>
-                    <li>Working in a multidisciplinary team.</li>
-                    <li>Building high-quality mockups and prototypes.</li>
-                    <li>Developing mobile-friendly features.</li>
-                </ul>
-            </div>
-        </section>
+## Features
+- **Responsive Design**: Optimized for various screen sizes.
+- **Light Modern Theme**: Clean and visually appealing design.
+- **Profile Section**: Displays name, profile image, and tagline.
+- **Education & Work Experience**: Structured sections for easy readability.
+- **Skills & Certifications**: Highlighted professional capabilities.
+- **Footer**: Copyright information.
 
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React.js, Node.js, Express.js</li>
-                <li>Database Management (MongoDB, SQL)</li>
-                <li>Version Control (Git/GitHub)</li>
-            </ul>
-        </section>
+## Files Included
+1. **index.html** - Contains the structure and content of the profile page.
+2. **styles.css** - Stylesheet that enhances the design.
 
-        <section class="certifications">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Certified Full Stack Web Developer - <b>Udemy</b></li>
-            </ul>
-        </section>
+## How to Use
+1. Download or clone this repository.
+2. Open `index.html` in a web browser to view the profile page.
+3. Modify `index.html` and `styles.css` as needed to personalize the profile.
 
-        <footer>
-            <p>&copy; 2025 G Vamshi. All rights reserved.</p>
-        </footer>
-    </div>
-</body>
-</html>
+## Technologies Used
+- **HTML5** for structuring the content.
+- **CSS3** for styling and layout.
+
+## Author
+**G Vamshi**
+
+
+
